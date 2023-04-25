@@ -59,10 +59,12 @@ Create a DataFrame that lists the average reading score for students of each gra
 # Scores by School Spending
 Create a table that breaks down school performance based on average spending ranges (per student).
 Use the code provided below to create four bins with reasonable cutoff values to group school spending.
-<img width="611" alt="image" src="https://user-images.githubusercontent.com/127918227/234157914-59f80537-dc36-4461-83bc-2d4bb1cc8037.png">\n
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/127918227/234157914-59f80537-dc36-4461-83bc-2d4bb1cc8037.png">
+
 Use pd.cut to categorize spending based on the bins.
 Use the following code to then calculate mean scores per spending range.
-<img width="677" alt="image" src="https://user-images.githubusercontent.com/127918227/234158048-24e3e913-cf86-467d-bb52-573a8d499dea.png">\n
+<img width="677" alt="image" src="https://user-images.githubusercontent.com/127918227/234158048-24e3e913-cf86-467d-bb52-573a8d499dea.png">
+
 Use the scores above to create a DataFrame called spending_summary.
 Include the following metrics in the table:
 - Average math score
@@ -73,7 +75,8 @@ Include the following metrics in the table:
 
 # Scores by School Size
 Use the following code to bin the per_school_summary.
-<img width="676" alt="image" src="https://user-images.githubusercontent.com/127918227/234158771-9d89833a-8a85-4bd7-ae22-f224718e2c4c.png">\n
+<img width="676" alt="image" src="https://user-images.githubusercontent.com/127918227/234158771-9d89833a-8a85-4bd7-ae22-f224718e2c4c.png">
+
 Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
 Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
