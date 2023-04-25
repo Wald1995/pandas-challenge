@@ -73,7 +73,7 @@ Include the following metrics in the table:
 
 # Scores by School Size
 Use the following code to bin the per_school_summary.
-<img width="836" alt="image" src="https://user-images.githubusercontent.com/127918227/234158265-1d4c0791-c87b-4d6a-bfc3-3cd5b0eb5013.png">
+<img width="676" alt="image" src="https://user-images.githubusercontent.com/127918227/234158771-9d89833a-8a85-4bd7-ae22-f224718e2c4c.png">
 Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
 Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
